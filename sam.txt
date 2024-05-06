@@ -1,0 +1,11 @@
+grade = 60
+
+score = int(input("enter the student score" :)
+
+if grade >= 30
+
+	print('passed')
+
+if grade < 30
+
+	print('failed')
