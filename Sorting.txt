@@ -1,0 +1,21 @@
+public class Sorting{
+
+	public static void main(String...args){
+
+		int[] arr = {2, 9, 3, 1, 6};
+
+		for(int counter = 0; counter < arr.length; counter++){
+
+		for(int count = i + 1; count < arr.length; count++){
+		
+		int tmp = 0;
+
+		if (arr[counter] > arr[count]){
+		tmp = arr[counter];
+		arr[counter] = arr[count];
+		arr[count] = tmp;
+		}
+		}
+		}
+	}
+}
