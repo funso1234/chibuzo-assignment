@@ -1,11 +1,19 @@
-public class Account{
-	private String name;
+public class Acount {
 
-	public static setName(String name){
-	this.name = name;
+	private int balance;
+
+	public void deposit(int amount){
+	
+	balance += amount;
 	}
 
-	public static getNme(){
-		return name;
+	public void withdrawal(int amount){
 	}
+
+	public int checkBalance(){
+	return balance;
+	}
+
+
+
 }
